@@ -1,0 +1,9 @@
+﻿@model IEnumerable<StorePositionItem>
+
+<h1>Lista på Items</h1>
+
+@foreach (var p in Model)
+{
+    <strong>@p.StorePosition - </strong> @p.ItemNo
+    <br />
+}

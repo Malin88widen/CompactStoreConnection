@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201008132856_vr.1.cs" />
+    <Compile Remove="Migrations\20201008132856_vr.1.Designer.cs" />
+    <Compile Remove="Migrations\20201008133223_Initial.cs" />
+    <Compile Remove="Migrations\20201008133223_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20201009101233_Initial.cs" />
+    <Compile Remove="Migrations\20201009101233_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20201009101810_two.cs" />
+    <Compile Remove="Migrations\20201009101810_two.Designer.cs" />
+    <Compile Remove="Migrations\20201009102358_thre.cs" />
+    <Compile Remove="Migrations\20201009102358_thre.Designer.cs" />
+    <Compile Remove="Migrations\20201009103920_three.cs" />
+    <Compile Remove="Migrations\20201009103920_three.Designer.cs" />
+    <Compile Remove="Migrations\20201009104414_Tw.cs" />
+    <Compile Remove="Migrations\20201009104414_Tw.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+  </ItemGroup>
+
+
+</Project>
